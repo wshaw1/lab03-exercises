@@ -8,3 +8,11 @@ Solutions that find duplicates:
     Set:
         A solution based on sets would use the inherent feature of sets where they dont allow duplicates. When adding to a set in java, it will return a boolean depending on the success of the addition. This can be used to track when something is already in the list, allowing you to add it to a further list.
         This is very efficient as it only needs to read through the list once. It could be argued that this needs more memory to run due to needing a second set.
+
+Merge pull request:
+    Create a merge commit:
+        The commits will be added to the original branch through individual commits.
+    Squash and merge:
+        The commits will be combined into one commit before being added to the original branch.
+    Rebase and merge:
+        The commits will be considered the new base to the original branch and added.
